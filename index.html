@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Feedback Form</h1>
+
+        <form id="feedback-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="feedback" id="feedback" placeholder="Your Feedback" required></textarea>
+            <div class="emoji-reactions">
+                <span onclick="insertEmoji('😠')">😠</span>
+                <span onclick="insertEmoji('😞')">😞</span>
+                <span onclick="insertEmoji('😐')">😐</span>
+                <span onclick="insertEmoji('😊')">😊</span>
+                <span onclick="insertEmoji('😄')">😄</span>
+            </div><br><br>
+            <button type="button" onclick="saveFeedback()">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

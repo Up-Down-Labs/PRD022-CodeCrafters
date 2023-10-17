@@ -1,0 +1,89 @@
+form {
+    width: 700px;
+    margin: 0 auto;
+}
+
+input,
+textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+textarea {
+    height: 200px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Arial", sans-serif;
+
+}
+
+.container {
+    background-color: rgba(246, 246, 246, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 32px;
+}
+
+.emoji-reactions {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.emoji-reactions span {
+    cursor: pointer;
+    margin-right: 20px;
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.emoji-reactions span.selected {
+    border-color: #000;
+}
+
+#feedback-form {
+    text-align: center;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    background-color: #030303;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
